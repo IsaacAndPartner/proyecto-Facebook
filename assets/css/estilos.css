@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.estiloBody {
+    background: #f0f2f5;
+    margin: 0;
+}
+
+.flexbox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px 0 140px;
+
+}
+
+@media (max-width: 900px) {
+    .flexbox1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .infoUsuario {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 -40px;
+    }
+}
+
+
+.infoUsuario {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 0 ;
+}
+
+
+.texto1 h2 {
+    font-size: 28px;
+    font-weight: normal;
+    height: 180px;
+    width: 500px;
+    letter-spacing: -1px;
+}
+
+#imgFacebook {
+    height: 106px;
+    display: flex;
+    align-items: end;
+    margin: -28px;
+}
+
+.cajaUsuario1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaUsuario2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+    background-color:#ffffff ;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 15px 15px 18px;
+}
+
+.cajaUsuario2 input {
+    padding: 14px 16px;
+    width: 330px;
+    background-color: #ffffff;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+}
+
+#botonAzul {
+    padding: 14px 16px;
+    width: 360px;
+    background-color: #1877f2;
+    color: #FAFAFA;
+    font-size: 20px;
+    font-style: bold;
+    border-radius: 8px;
+    border: 1px solid #1877f2;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#enlace1 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #1877f2;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+#linea {
+    background: #dadde1;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#botonVerde {
+    padding: 14px 16px;
+    width: 100%;
+    background-color: #42b72a;
+    color: #FAFAFA;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px solid #42b72a;
+    font-weight: bold;
+}
+
+.textoCierre {
+    margin: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#enlace2 {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enlacesFooter1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.enlacesFooter2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.enlacesFooter1 div {
+    font-size: 12px;
+    padding: 10px 8px 0;    
+    color: rgb(142, 142, 142);
+}
+
+.enlacesFooter1 a {
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+
+
+}
+
+.enlacesFooter2 div {
+    font-size: 12px;
+    padding: 10px 8px 0;    
+    color: rgb(142, 142, 142);
+}
+.enlacesFooter2 a {
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+
+#lineafooter {
+    background: #dadde1;
+    width: 980px;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    align-content: flex-start;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin:0px;
+}
+
+#firmaFooter {
+    width: 980px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: left;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+
+ /* ANCHO 850px : MEDIA QUERY PARA EL FOOTER */
+ @media (max-width: 850px) { 
+    #lineafooter {
+        background: #dadde1;
+        width: 790px;
+        height: 1px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        align-content: flex-start;
+    }
+
+
+    #firmaFooter {
+        width: 750px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: left;
+        color: rgb(142, 142, 142);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+        .enlacesFooter1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 750px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    
+        .enlacesFooter2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 750px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    }
+
+
+ /* ANCHO 800 : MEDIA QUERY PARA EL FOOTER */
+ @media (max-width: 800px) { 
+    #lineafooter {
+        background: #dadde1;
+        width: 710px;
+        height: 1px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        align-content: flex-start;
+    }
+
+    #firmaFooter {
+        width: 670px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: left;
+        color: rgb(142, 142, 142);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+        .enlacesFooter1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 670px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    
+        .enlacesFooter2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 670px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    }
+
+
+ /* ANCHO 666 : MEDIA QUERY PARA EL FOOTER */
+@media (max-width: 666px) { 
+    #lineafooter {
+        background: #dadde1;
+        width: 666px;
+        height: 1px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        align-content: flex-start;
+    }
+
+    #firmaFooter {
+        width: 500px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: left;
+        color: rgb(142, 142, 142);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+        .enlacesFooter1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 500px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    
+        .enlacesFooter2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 500px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    }
+
+ /* ANCHO 529 : MEDIA QUERY PARA EL FOOTER */
+
+@media  (max-width: 529px) and (max-width: 529px) { 
+    #lineafooter {
+        background: #dadde1;
+        width: 500px;
+        height: 1px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        align-content: flex-start;
+    }
+
+    #firmaFooter {
+        width: 370px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: left;
+        color: rgb(142, 142, 142);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+        .enlacesFooter1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 440px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    
+        .enlacesFooter2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 440px;
+            justify-content: left;
+            align-items: flex-start;
+            margin: 0 0 0 -40px;
+        }
+    }
+
