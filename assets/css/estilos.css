@@ -215,6 +215,7 @@ footer {
 
 
  /* ANCHO 850px : MEDIA QUERY PARA EL FOOTER */
+ 
  @media (max-width: 850px) { 
     #lineafooter {
         background: #dadde1;
